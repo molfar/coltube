@@ -1,0 +1,12 @@
+{
+  "name": "coltube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "index.js",
+  "dependencies": {
+    "@pioug/colorthief": "^3.0.1",
+    "colorthief": "npm:@pioug/colorthief",
+    "commander": "^9.4.1"
+  }
+}
