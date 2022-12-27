@@ -14,7 +14,7 @@ program
   .action((imageUrl, options) => {
     ColorThief.getPalette(imageUrl, options.limit)
       .then((palette) => {
-        console.log(palette.map(rgbToHex));
+        console.log(JSON.stringify(palette.map(rgbToHex)));
       })
       .catch((err) => {
         console.log(err);
